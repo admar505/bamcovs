@@ -988,8 +988,8 @@ int load_bamfiles(struct opt_aux *f, aux_t * a, bamflag_t * fs)
  
 struct regcov
 {
-    uint64_t cnt, cnt4, cnt10, cnt30, cnt100, cntx;
-    float    cov, cov4, cov10, cov30, cov100, covx;
+    uint64_t cnt, cnt4, cnt10, cnt15, cnt30, cnt100, cntx;
+    float    cov, cov4, cov10, cov15, cov30, cov100, covx;
 };
 
 struct regcov * regcov_init()
